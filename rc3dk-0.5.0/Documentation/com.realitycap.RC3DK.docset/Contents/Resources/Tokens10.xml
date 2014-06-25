@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCSensorFusionStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCSensorFusionStatus</TokenIdentifier>
+			<Abstract type="html">Represents the status of the sensor fusion engine.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionStatus/setRunState:</TokenIdentifier>
+			<Abstract type="html">Specifies the internal state of RCSensorFusion.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCSensorFusionRunState runState</Declaration>
+			
+			
+			<Anchor>//api/name/runState</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionStatus/runState</TokenIdentifier>
+			<Abstract type="html">Specifies the internal state of RCSensorFusion.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCSensorFusionRunState runState</Declaration>
+			
+			
+			<Anchor>//api/name/runState</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionStatus/runState</TokenIdentifier>
+			<Abstract type="html">Specifies the internal state of RCSensorFusion.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCSensorFusionRunState runState</Declaration>
+			
+			
+			<Anchor>//api/name/runState</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionStatus/setProgress:</TokenIdentifier>
+			<Abstract type="html">Indicates the progress in the current runState.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionStatus/progress</TokenIdentifier>
+			<Abstract type="html">Indicates the progress in the current runState.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionStatus/progress</TokenIdentifier>
+			<Abstract type="html">Indicates the progress in the current runState.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionStatus/setError:</TokenIdentifier>
+			<Abstract type="html">Indicates the error, if any, that occurred. If a state change has occurred without an associated error, this property will be set to nil.
+Check this property on every invocation of [RCSensorFusionDelegate sensorFusionDidChangeStatus:].
+Check the class of the error to determine which type of error occured. The error class may be RCSensorFusionError or RCLicenseError.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionStatus/error</TokenIdentifier>
+			<Abstract type="html">Indicates the error, if any, that occurred. If a state change has occurred without an associated error, this property will be set to nil.
+Check this property on every invocation of [RCSensorFusionDelegate sensorFusionDidChangeStatus:].
+Check the class of the error to determine which type of error occured. The error class may be RCSensorFusionError or RCLicenseError.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionStatus/error</TokenIdentifier>
+			<Abstract type="html">Indicates the error, if any, that occurred. If a state change has occurred without an associated error, this property will be set to nil.
+Check this property on every invocation of [RCSensorFusionDelegate sensorFusionDidChangeStatus:].
+Check the class of the error to determine which type of error occured. The error class may be RCSensorFusionError or RCLicenseError.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionStatus/initWithRunState:withProgress:withError:</TokenIdentifier>
+			<Abstract type="html">You will not typically need to instantiate this class yourself.</Abstract>
+			<DeclaredIn>RCSensorFusionStatus.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithRunState:(RCSensorFusionRunState)runState withProgress:(float)progress withError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRunState:withProgress:withError:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

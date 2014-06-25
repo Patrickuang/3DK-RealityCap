@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCTransformation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCTransformation</TokenIdentifier>
+			<Abstract type="html">Represents a 3D transformation.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/setTranslation:</TokenIdentifier>
+			<Abstract type="html">An RCTranslation object that represents the translation component.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCTranslation *translation</Declaration>
+			
+			
+			<Anchor>//api/name/translation</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/translation</TokenIdentifier>
+			<Abstract type="html">An RCTranslation object that represents the translation component.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCTranslation *translation</Declaration>
+			
+			
+			<Anchor>//api/name/translation</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCTransformation/translation</TokenIdentifier>
+			<Abstract type="html">An RCTranslation object that represents the translation component.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCTranslation *translation</Declaration>
+			
+			
+			<Anchor>//api/name/translation</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/setRotation:</TokenIdentifier>
+			<Abstract type="html">An RCRotation object that represents the rotation component.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCRotation *rotation</Declaration>
+			
+			
+			<Anchor>//api/name/rotation</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/rotation</TokenIdentifier>
+			<Abstract type="html">An RCRotation object that represents the rotation component.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCRotation *rotation</Declaration>
+			
+			
+			<Anchor>//api/name/rotation</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCTransformation/rotation</TokenIdentifier>
+			<Abstract type="html">An RCRotation object that represents the rotation component.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCRotation *rotation</Declaration>
+			
+			
+			<Anchor>//api/name/rotation</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/initWithTranslation:withRotation:</TokenIdentifier>
+			<Abstract type="html">Instantiate an RCTransformation composed of the given rotation and translation.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTranslation:(RCTranslation *)translation withRotation:(RCRotation *)rotation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>translation</Name>
+					<Abstract type="html">An RCTranslation object representing the desired translation.</Abstract>
+				</Parameter><Parameter>
+					<Name>rotation</Name>
+					<Abstract type="html">An RCRotation object representing the desired rotation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTranslation:withRotation:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/getOpenGLMatrix:</TokenIdentifier>
+			<Abstract type="html">Fills in a matrix representation of the transformation that is compatible with OpenGL.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>- (void)getOpenGLMatrix:(float [ 16 ])matrix</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>matrix</Name>
+					<Abstract type="html">A C-style array of 16 floats that will be overwritten with the transformation matrix.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getOpenGLMatrix:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/transformPoint:</TokenIdentifier>
+			<Abstract type="html">Apply the transformation to a point.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>- (RCPoint *)transformPoint:(RCPoint *)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">An RCPoint object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The transformed version of the point.</Abstract></ReturnValue>
+			<Anchor>//api/name/transformPoint:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/getInverse</TokenIdentifier>
+			<Abstract type="html">Compute the inverse transformation.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>- (RCTransformation *)getInverse</Declaration>
+			
+			<ReturnValue><Abstract type="html">The inverse of the transformation.</Abstract></ReturnValue>
+			<Anchor>//api/name/getInverse</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/composeWithTransformation:</TokenIdentifier>
+			<Abstract type="html">Compute the composition of two transformations.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>- (RCTransformation *)composeWithTransformation:(RCTransformation *)other</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>other</Name>
+					<Abstract type="html">An RCTransformation object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An RCTransformation object representing the combined transformation.</Abstract></ReturnValue>
+			<Anchor>//api/name/composeWithTransformation:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTransformation/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html">Return a dictionary representation of the transformation.</Abstract>
+			<DeclaredIn>RCTransformation.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

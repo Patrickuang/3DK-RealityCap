@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/RCLicenseErrorCode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/RCLicenseErrorCode</TokenIdentifier>
+			<Abstract type="html">Represents the type of license validation error.</Abstract>
+			<DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorUnknown</TokenIdentifier>
+            <Abstract type="html">An unknown error occured. Please contact support.</Abstract>
+            <Declaration>RCLicenseErrorUnknown</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorMissingKey</TokenIdentifier>
+            <Abstract type="html">The license key provided was nil or zero length</Abstract>
+            <Declaration>RCLicenseErrorMissingKey</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorMalformedKey</TokenIdentifier>
+            <Abstract type="html">The license key is the wrong length. Must be exactly 30 characters.</Abstract>
+            <Declaration>RCLicenseErrorMalformedKey</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorInvalidKey</TokenIdentifier>
+            <Abstract type="html">The license key is invalid. Please obtain a license key from RealityCap.</Abstract>
+            <Declaration>RCLicenseErrorInvalidKey</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorBundleIdMissing</TokenIdentifier>
+            <Abstract type="html">We weren&apos;t able to get the app&apos;s bundle ID from the system</Abstract>
+            <Declaration>RCLicenseErrorBundleIdMissing</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorVendorIdMissing</TokenIdentifier>
+            <Abstract type="html">We weren&apos;t able to get the identifier for vendor from the system</Abstract>
+            <Declaration>RCLicenseErrorVendorIdMissing</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorEmptyResponse</TokenIdentifier>
+            <Abstract type="html">The license server returned an empty response</Abstract>
+            <Declaration>RCLicenseErrorEmptyResponse</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorDeserialization</TokenIdentifier>
+            <Abstract type="html">Failed to deserialize the response from the license server</Abstract>
+            <Declaration>RCLicenseErrorDeserialization</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorInvalidResponse</TokenIdentifier>
+            <Abstract type="html">The license server returned invalid data</Abstract>
+            <Declaration>RCLicenseErrorInvalidResponse</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorHttpFailure</TokenIdentifier>
+            <Abstract type="html">Failed to execute the HTTP request. See underlying error for details.</Abstract>
+            <Declaration>RCLicenseErrorHttpFailure</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorHttpError</TokenIdentifier>
+            <Abstract type="html">We got an HTTP error status from the license server.</Abstract>
+            <Declaration>RCLicenseErrorHttpError</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorOverLimit</TokenIdentifier>
+            <Abstract type="html">The maximum number of sensor fusion sessions has been reached for the current time period. Contact customer service if you wish to change your license type.</Abstract>
+            <Declaration>RCLicenseErrorOverLimit</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorRateLimited</TokenIdentifier>
+            <Abstract type="html">API use has been rate limited. Try again after a short time.</Abstract>
+            <Declaration>RCLicenseErrorRateLimited</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseErrorSuspended</TokenIdentifier>
+            <Abstract type="html">Account suspended. Please contact support.</Abstract>
+            <Declaration>RCLicenseErrorSuspended</Declaration>
+            
+            <DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+	</File>
+</Tokens>

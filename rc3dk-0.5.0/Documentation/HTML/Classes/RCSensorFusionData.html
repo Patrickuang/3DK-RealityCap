@@ -1,0 +1,655 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>RCSensorFusionData Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">RC3DK </a></h1>
+				<a id="developerHome" href="../index.html">RealityCap</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">RCSensorFusionData Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/cameraParameters">&nbsp;&nbsp;&nbsp;&nbsp;cameraParameters</option>
+	
+	<option value="//api/name/cameraTransformation">&nbsp;&nbsp;&nbsp;&nbsp;cameraTransformation</option>
+	
+	<option value="//api/name/featurePoints">&nbsp;&nbsp;&nbsp;&nbsp;featurePoints</option>
+	
+	<option value="//api/name/sampleBuffer">&nbsp;&nbsp;&nbsp;&nbsp;sampleBuffer</option>
+	
+	<option value="//api/name/timestamp">&nbsp;&nbsp;&nbsp;&nbsp;timestamp</option>
+	
+	<option value="//api/name/totalPathLength">&nbsp;&nbsp;&nbsp;&nbsp;totalPathLength</option>
+	
+	<option value="//api/name/transformation">&nbsp;&nbsp;&nbsp;&nbsp;transformation</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cameraParameters">cameraParameters</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cameraTransformation">cameraTransformation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/featurePoints">featurePoints</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sampleBuffer">sampleBuffer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/timestamp">timestamp</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/totalPathLength">totalPathLength</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transformation">transformation</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:">initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="RCSensorFusionData Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">RCSensorFusionData Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">RCSensorFusionData.h<br />RCSensorFusionData.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>This class represents a snapshot of the translation, rotation, point cloud, and other sensor fusion data at one moment in time. When processing video data, a new instance of this class is passed to <a href="../Protocols/RCSensorFusionDelegate.html#//api/name/sensorFusionDidUpdateData:">[RCSensorFusionDelegate sensorFusionDidUpdateData:]</a> after each video frame is processed, typically 30 times per second.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/featurePoints">&nbsp;&nbsp;featurePoints</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transformation">&nbsp;&nbsp;transformation</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cameraTransformation">&nbsp;&nbsp;cameraTransformation</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cameraParameters">&nbsp;&nbsp;cameraParameters</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/totalPathLength">&nbsp;&nbsp;totalPathLength</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sampleBuffer">&nbsp;&nbsp;sampleBuffer</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/timestamp">&nbsp;&nbsp;timestamp</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:">&ndash;&nbsp;initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/cameraParameters" title="cameraParameters"></a>
+	<h3 class="subsubtitle method-title">cameraParameters</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An <a href="../Classes/RCCameraParameters.html">RCCameraParameters</a> object representing the current optical (intrinsic) properties of the camera.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) RCCameraParameters *cameraParameters</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">RCSensorFusionData.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cameraTransformation" title="cameraTransformation"></a>
+	<h3 class="subsubtitle method-title">cameraTransformation</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An <a href="../Classes/RCTransformation.html">RCTransformation</a> object representing the current camera <a href="#//api/name/transformation">transformation</a> relative to the global reference frame as defined for the <a href="#//api/name/transformation">transformation</a> property.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) RCTransformation *cameraTransformation</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">RCSensorFusionData.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/featurePoints" title="featurePoints"></a>
+	<h3 class="subsubtitle method-title">featurePoints</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An NSArray of <a href="../Classes/RCFeaturePoint.html">RCFeaturePoint</a> objects representing the visual features that were detected by computer vision in the most recent image.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSArray *featurePoints</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">RCSensorFusionData.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sampleBuffer" title="sampleBuffer"></a>
+	<h3 class="subsubtitle method-title">sampleBuffer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A CMSampleBufferRef containing the video frame that was most recently processed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CMSampleBufferRef sampleBuffer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This image corresponds to the other data contained in this class, so for example, the x and y coordinates in the <a href="#//api/name/featurePoints">featurePoints</a> array will correspond to the locations of the features detected in this image. If you are displaying an augmented reality view or video preview with any overlays, use this image. This will ensure that the data you draw with corresponds to the video frame being shown, which minimizes perceptible lag. If video data is not being processed, this property will be nil.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">RCSensorFusionData.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/timestamp" title="timestamp"></a>
+	<h3 class="subsubtitle method-title">timestamp</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A uint64_t containing the time in microseconds when this RCSensorFusionData was calculated.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) uint64_t timestamp</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">RCSensorFusionData.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/totalPathLength" title="totalPathLength"></a>
+	<h3 class="subsubtitle method-title">totalPathLength</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An <a href="../Classes/RCScalar.html">RCScalar</a> object representing the total length of the path the device has traveled.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) RCScalar *totalPathLength</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Note: This length is not the straight-line distance, which can be computed by calling [RCSensorFusionData.transformation.translation getDistance]. Instead it is the total distance traveled by the device. For example, if the device is moved in a straight line for 1 meter, then returned directly to its starting point, totalPathLength will be 2 meters.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">RCSensorFusionData.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transformation" title="transformation"></a>
+	<h3 class="subsubtitle method-title">transformation</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An <a href="../Classes/RCTransformation.html">RCTransformation</a> object representing the rotation and translation of the device.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) RCTransformation *transformation</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The transformation is defined relative to a right-handed coordinate system in which the Z axis points straight up (as defined by gravity) and initial rotation about the Z axis is arbitrary. The translational origin is set when [RCSensorFusion startSensorFusion] is called.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">RCSensorFusionData.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:" title="initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:"></a>
+	<h3 class="subsubtitle method-title">initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>You will not typically need to instantiate this class yourself.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithTransformation:(RCTransformation *)<em>transformation</em> withCameraTransformation:(RCTransformation *)<em>cameraTransformation</em> withCameraParameters:(RCCameraParameters *)<em>cameraParameters</em> withTotalPath:(RCScalar *)<em>totalPath</em> withFeatures:(NSArray *)<em>featurePoints</em> withSampleBuffer:(CMSampleBufferRef)<em>sampleBuffer</em> withTimestamp:(uint64_t)<em>timestamp</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">RCSensorFusionData.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 RealityCap. All rights reserved. (Last updated: 2014-06-19)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

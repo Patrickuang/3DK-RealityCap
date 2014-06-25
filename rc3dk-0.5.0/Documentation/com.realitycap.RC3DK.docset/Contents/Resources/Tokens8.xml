@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCSensorFusionData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCSensorFusionData</TokenIdentifier>
+			<Abstract type="html">This class represents a snapshot of the translation, rotation, point cloud, and other sensor fusion data at one moment in time. When processing video data, a new instance of this class is passed to [RCSensorFusionDelegate sensorFusionDidUpdateData:] after each video frame is processed, typically 30 times per second.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/setFeaturePoints:</TokenIdentifier>
+			<Abstract type="html">An NSArray of RCFeaturePoint objects representing the visual features that were detected by computer vision in the most recent image.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *featurePoints</Declaration>
+			
+			
+			<Anchor>//api/name/featurePoints</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/featurePoints</TokenIdentifier>
+			<Abstract type="html">An NSArray of RCFeaturePoint objects representing the visual features that were detected by computer vision in the most recent image.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *featurePoints</Declaration>
+			
+			
+			<Anchor>//api/name/featurePoints</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionData/featurePoints</TokenIdentifier>
+			<Abstract type="html">An NSArray of RCFeaturePoint objects representing the visual features that were detected by computer vision in the most recent image.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *featurePoints</Declaration>
+			
+			
+			<Anchor>//api/name/featurePoints</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/setTransformation:</TokenIdentifier>
+			<Abstract type="html">An RCTransformation object representing the rotation and translation of the device.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCTransformation *transformation</Declaration>
+			
+			
+			<Anchor>//api/name/transformation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/transformation</TokenIdentifier>
+			<Abstract type="html">An RCTransformation object representing the rotation and translation of the device.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCTransformation *transformation</Declaration>
+			
+			
+			<Anchor>//api/name/transformation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionData/transformation</TokenIdentifier>
+			<Abstract type="html">An RCTransformation object representing the rotation and translation of the device.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCTransformation *transformation</Declaration>
+			
+			
+			<Anchor>//api/name/transformation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/setCameraTransformation:</TokenIdentifier>
+			<Abstract type="html">An RCTransformation object representing the current camera transformation relative to the global reference frame as defined for the transformation property.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCTransformation *cameraTransformation</Declaration>
+			
+			
+			<Anchor>//api/name/cameraTransformation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/cameraTransformation</TokenIdentifier>
+			<Abstract type="html">An RCTransformation object representing the current camera transformation relative to the global reference frame as defined for the transformation property.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCTransformation *cameraTransformation</Declaration>
+			
+			
+			<Anchor>//api/name/cameraTransformation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionData/cameraTransformation</TokenIdentifier>
+			<Abstract type="html">An RCTransformation object representing the current camera transformation relative to the global reference frame as defined for the transformation property.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCTransformation *cameraTransformation</Declaration>
+			
+			
+			<Anchor>//api/name/cameraTransformation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/setCameraParameters:</TokenIdentifier>
+			<Abstract type="html">An RCCameraParameters object representing the current optical (intrinsic) properties of the camera.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCCameraParameters *cameraParameters</Declaration>
+			
+			
+			<Anchor>//api/name/cameraParameters</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/cameraParameters</TokenIdentifier>
+			<Abstract type="html">An RCCameraParameters object representing the current optical (intrinsic) properties of the camera.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCCameraParameters *cameraParameters</Declaration>
+			
+			
+			<Anchor>//api/name/cameraParameters</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionData/cameraParameters</TokenIdentifier>
+			<Abstract type="html">An RCCameraParameters object representing the current optical (intrinsic) properties of the camera.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCCameraParameters *cameraParameters</Declaration>
+			
+			
+			<Anchor>//api/name/cameraParameters</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/setTotalPathLength:</TokenIdentifier>
+			<Abstract type="html">An RCScalar object representing the total length of the path the device has traveled.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCScalar *totalPathLength</Declaration>
+			
+			
+			<Anchor>//api/name/totalPathLength</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/totalPathLength</TokenIdentifier>
+			<Abstract type="html">An RCScalar object representing the total length of the path the device has traveled.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCScalar *totalPathLength</Declaration>
+			
+			
+			<Anchor>//api/name/totalPathLength</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionData/totalPathLength</TokenIdentifier>
+			<Abstract type="html">An RCScalar object representing the total length of the path the device has traveled.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCScalar *totalPathLength</Declaration>
+			
+			
+			<Anchor>//api/name/totalPathLength</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/setSampleBuffer:</TokenIdentifier>
+			<Abstract type="html">A CMSampleBufferRef containing the video frame that was most recently processed.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CMSampleBufferRef sampleBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/sampleBuffer</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/sampleBuffer</TokenIdentifier>
+			<Abstract type="html">A CMSampleBufferRef containing the video frame that was most recently processed.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CMSampleBufferRef sampleBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/sampleBuffer</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionData/sampleBuffer</TokenIdentifier>
+			<Abstract type="html">A CMSampleBufferRef containing the video frame that was most recently processed.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CMSampleBufferRef sampleBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/sampleBuffer</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">A uint64_t containing the time in microseconds when this RCSensorFusionData was calculated.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint64_t timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/timestamp</TokenIdentifier>
+			<Abstract type="html">A uint64_t containing the time in microseconds when this RCSensorFusionData was calculated.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint64_t timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusionData/timestamp</TokenIdentifier>
+			<Abstract type="html">A uint64_t containing the time in microseconds when this RCSensorFusionData was calculated.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint64_t timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusionData/initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:</TokenIdentifier>
+			<Abstract type="html">You will not typically need to instantiate this class yourself.</Abstract>
+			<DeclaredIn>RCSensorFusionData.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTransformation:(RCTransformation *)transformation withCameraTransformation:(RCTransformation *)cameraTransformation withCameraParameters:(RCCameraParameters *)cameraParameters withTotalPath:(RCScalar *)totalPath withFeatures:(NSArray *)featurePoints withSampleBuffer:(CMSampleBufferRef)sampleBuffer withTimestamp:(uint64_t)timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTransformation:withCameraTransformation:withCameraParameters:withTotalPath:withFeatures:withSampleBuffer:withTimestamp:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

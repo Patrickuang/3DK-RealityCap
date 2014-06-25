@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCRotation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCRotation</TokenIdentifier>
+			<Abstract type="html">Represents a 3D rotation.</Abstract>
+			<DeclaredIn>RCRotation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCRotation/getOpenGLMatrix:</TokenIdentifier>
+			<Abstract type="html">Fills in a matrix representation of the rotation that is compatible with OpenGL.</Abstract>
+			<DeclaredIn>RCRotation.h</DeclaredIn>
+			
+			<Declaration>- (void)getOpenGLMatrix:(float [ 16 ])matrix</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>matrix</Name>
+					<Abstract type="html">A C-style array of 16 floats that will be overwritten with the rotation matrix.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getOpenGLMatrix:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCRotation/transformPoint:</TokenIdentifier>
+			<Abstract type="html">Apply the rotation to a point.</Abstract>
+			<DeclaredIn>RCRotation.h</DeclaredIn>
+			
+			<Declaration>- (RCPoint *)transformPoint:(RCPoint *)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">An RCPoint object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The rotated version of the point.</Abstract></ReturnValue>
+			<Anchor>//api/name/transformPoint:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCRotation/transformTranslation:</TokenIdentifier>
+			<Abstract type="html">Apply the rotation to a translation vector.</Abstract>
+			<DeclaredIn>RCRotation.h</DeclaredIn>
+			
+			<Declaration>- (RCTranslation *)transformTranslation:(RCTranslation *)translation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>translation</Name>
+					<Abstract type="html">An RCTranslation object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The rotated version of the translation.</Abstract></ReturnValue>
+			<Anchor>//api/name/transformTranslation:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCRotation/getInverse</TokenIdentifier>
+			<Abstract type="html">Compute the inverse rotation.</Abstract>
+			<DeclaredIn>RCRotation.h</DeclaredIn>
+			
+			<Declaration>- (RCRotation *)getInverse</Declaration>
+			
+			<ReturnValue><Abstract type="html">The inverse of the rotation.</Abstract></ReturnValue>
+			<Anchor>//api/name/getInverse</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCRotation/composeWithRotation:</TokenIdentifier>
+			<Abstract type="html">Compute the composition of two rotations.</Abstract>
+			<DeclaredIn>RCRotation.h</DeclaredIn>
+			
+			<Declaration>- (RCRotation *)composeWithRotation:(RCRotation *)other</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>other</Name>
+					<Abstract type="html">An RCRotation object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An RCRotation object representing the combined rotation.</Abstract></ReturnValue>
+			<Anchor>//api/name/composeWithRotation:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

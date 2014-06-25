@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCCameraParameters.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCCameraParameters</TokenIdentifier>
+			<Abstract type="html">Represents the optical, or intrinsic properties of a camera.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/setFocalLength:</TokenIdentifier>
+			<Abstract type="html">The focal length of the camera, in units of pixels.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float focalLength</Declaration>
+			
+			
+			<Anchor>//api/name/focalLength</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/focalLength</TokenIdentifier>
+			<Abstract type="html">The focal length of the camera, in units of pixels.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float focalLength</Declaration>
+			
+			
+			<Anchor>//api/name/focalLength</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCCameraParameters/focalLength</TokenIdentifier>
+			<Abstract type="html">The focal length of the camera, in units of pixels.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float focalLength</Declaration>
+			
+			
+			<Anchor>//api/name/focalLength</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/setOpticalCenterX:</TokenIdentifier>
+			<Abstract type="html">The horizontal position of the optical center of the camera, in units of pixels.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float opticalCenterX</Declaration>
+			
+			
+			<Anchor>//api/name/opticalCenterX</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/opticalCenterX</TokenIdentifier>
+			<Abstract type="html">The horizontal position of the optical center of the camera, in units of pixels.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float opticalCenterX</Declaration>
+			
+			
+			<Anchor>//api/name/opticalCenterX</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCCameraParameters/opticalCenterX</TokenIdentifier>
+			<Abstract type="html">The horizontal position of the optical center of the camera, in units of pixels.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float opticalCenterX</Declaration>
+			
+			
+			<Anchor>//api/name/opticalCenterX</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/setOpticalCenterY:</TokenIdentifier>
+			<Abstract type="html">The vertical position of the optical center of the camera, in units of pixels.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float opticalCenterY</Declaration>
+			
+			
+			<Anchor>//api/name/opticalCenterY</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/opticalCenterY</TokenIdentifier>
+			<Abstract type="html">The vertical position of the optical center of the camera, in units of pixels.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float opticalCenterY</Declaration>
+			
+			
+			<Anchor>//api/name/opticalCenterY</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCCameraParameters/opticalCenterY</TokenIdentifier>
+			<Abstract type="html">The vertical position of the optical center of the camera, in units of pixels.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float opticalCenterY</Declaration>
+			
+			
+			<Anchor>//api/name/opticalCenterY</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/setRadialSecondDegree:</TokenIdentifier>
+			<Abstract type="html">The coefficient of the second degree polynomial to compensate for radial distortion. In most representations, this is the first &quot;K&quot; parameter.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float radialSecondDegree</Declaration>
+			
+			
+			<Anchor>//api/name/radialSecondDegree</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/radialSecondDegree</TokenIdentifier>
+			<Abstract type="html">The coefficient of the second degree polynomial to compensate for radial distortion. In most representations, this is the first &quot;K&quot; parameter.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float radialSecondDegree</Declaration>
+			
+			
+			<Anchor>//api/name/radialSecondDegree</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCCameraParameters/radialSecondDegree</TokenIdentifier>
+			<Abstract type="html">The coefficient of the second degree polynomial to compensate for radial distortion. In most representations, this is the first &quot;K&quot; parameter.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float radialSecondDegree</Declaration>
+			
+			
+			<Anchor>//api/name/radialSecondDegree</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/setRadialFourthDegree:</TokenIdentifier>
+			<Abstract type="html">The coefficient of the fourth degree polynomial to compensate for radial distortion. In most representations, this is the second &quot;K&quot; parameter.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float radialFourthDegree</Declaration>
+			
+			
+			<Anchor>//api/name/radialFourthDegree</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/radialFourthDegree</TokenIdentifier>
+			<Abstract type="html">The coefficient of the fourth degree polynomial to compensate for radial distortion. In most representations, this is the second &quot;K&quot; parameter.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float radialFourthDegree</Declaration>
+			
+			
+			<Anchor>//api/name/radialFourthDegree</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCCameraParameters/radialFourthDegree</TokenIdentifier>
+			<Abstract type="html">The coefficient of the fourth degree polynomial to compensate for radial distortion. In most representations, this is the second &quot;K&quot; parameter.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float radialFourthDegree</Declaration>
+			
+			
+			<Anchor>//api/name/radialFourthDegree</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCCameraParameters/initWithFocalLength:withOpticalCenterX:withOpticalCenterY:withRadialSecondDegree:withRadialFourthDegree:</TokenIdentifier>
+			<Abstract type="html">You will not typically need to instantiate this class yourself.</Abstract>
+			<DeclaredIn>RCCameraParameters.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFocalLength:(float)focalLength withOpticalCenterX:(float)opticalCenterX withOpticalCenterY:(float)opticalCenterY withRadialSecondDegree:(float)radialSecondDegree withRadialFourthDegree:(float)radialFouthDegree</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFocalLength:withOpticalCenterX:withOpticalCenterY:withRadialSecondDegree:withRadialFourthDegree:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCLicenseError.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCLicenseError</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RCLicenseError.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCLicenseError/code</TokenIdentifier>
+			<Abstract type="html">Contains a value corresponding to a RCLicenseErrorCode</Abstract>
+			<DeclaredIn>RCLicenseError.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCVideoPreview.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCVideoPreview</TokenIdentifier>
+			<Abstract type="html">This is a video preview view that can be used as an alternative to a AVCaptureVideoPreviewLayer. You can pass individual
+video frames to this class, and it will display them as they are received. One advantage of this design is that you can
+pass in video frames that you receive via [RCSensorFusionDelegate sensorFusionDidUpdateData:], which will ensure that the video
+and any augmented reality overlays you draw on top of it stay in sync.</Abstract>
+			<DeclaredIn>RCVideoPreview.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVideoPreview/displaySampleBuffer:</TokenIdentifier>
+			<Abstract type="html">Pass CMSampleBufferRef video frames to this method.</Abstract>
+			<DeclaredIn>RCVideoPreview.h</DeclaredIn>
+			
+			<Declaration>- (void)displaySampleBuffer:(CMSampleBufferRef)sampleBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/displaySampleBuffer:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVideoPreview/setVideoOrientation:</TokenIdentifier>
+			<Abstract type="html">Sets the orientation of the video preview.</Abstract>
+			<DeclaredIn>RCVideoPreview.h</DeclaredIn>
+			
+			<Declaration>- (void)setVideoOrientation:(AVCaptureVideoOrientation)orientation</Declaration>
+			
+			
+			<Anchor>//api/name/setVideoOrientation:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

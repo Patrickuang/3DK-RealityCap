@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>RC3DK Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">RC3DK </a></h1>
+				<a id="developerHome" href="index.html">RealityCap</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">RC3DK Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">RC3DK Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1>Introduction</h1>
+
+<p>3DK offers real-time access to data from RealityCap&rsquo;s sensor fusion algorithms. The primary interface is provided by the <a href="Classes/RCSensorFusion.html">RCSensorFusion</a> class; your apps must also implement the <a href="Protocols/RCSensorFusionDelegate.html">RCSensorFusionDelegate</a> protocol.</p>
+
+<h1>Requirements</h1>
+
+<ul>
+<li><p>Your projects must be linked against the libc++ C++ standard library. To do this add &ldquo;-lc++&rdquo; to &ldquo;Other linker flags&rdquo; in your project file. If you use another library that require libstdc++ (such as opencv), it&rsquo;s ok to link against both (-lc++ -lstdc++).</p></li>
+<li><p>3DK requires at least a dual-core A5 CPU, and of course, a camera, accelerometer, and gyroscope. Currently supported devices are iPhone 4S, 5, 5C, 5S, iPad 2, 3, 4, Mini, iPod Touch 5.</p></li>
+<li><p>The quality of your data may suffer when running a Debug build, especially on older devices, due to increased overhead and less consistent data delivery from the OS. To get more satisfactory output, use an optimized build, either by changing the optimization settings in your project (this may make debugging more difficult), or choosing a Profile build.</p></li>
+<li><p>If you choose to manage the device&rsquo;s sensors yourself, rather than using the classes we provide (AVSessionManager, LocationManager, MotionManager, VideoManager, and/or RCSensorDelegate), you must use the following settings:</p>
+
+<ul>
+<li>640x480 video @24-30fps - [AVCaptureSession setSessionPreset:AVCaptureSessionPreset640x480]</li>
+<li>Back camera - [AVCaptureDevice position] == AVCaptureDevicePositionBack</li>
+<li>100Hz accelerometer and gyro updates - [CMMotionManager setAccelerometerUpdateInterval:.01], [cmMotionManager setGyroUpdateInterval:.01]</li>
+</ul>
+</li>
+</ul>
+
+
+<h1>Getting started</h1>
+
+<ol>
+<li><p>Build and run the sample application RC3DKSampleGL. Make sure that you enter your license key in LicenseHelper.h. When you run it, you&rsquo;ll go through a brief calibration process, then see an interface visualizing the motion of your device and the real time 3D point cloud (gridlines are in meters).</p></li>
+<li><p>To see how to start building your own app, look at RC3DKSampleApp. It is a simpler example that shows the bare minimum needed to get an app working with 3DK.</p></li>
+<li><p>Have fun!</p></li>
+</ol>
+
+
+<h1>Known limitations and issues</h1>
+
+<ul>
+<li><p>We are working to allow you to configure how much CPU 3DK should use, as well as provide more options for camera configurations (see the Requirements section above).</p></li>
+<li><p>If your app tries to use 3DK without providing location and implementing a calibration procedure (as in the sample app), you may receive errors from the sensor fusion system and/or poor results. In some cases these results may improve over time as <a href="Classes/RCSensorFusion.html">RCSensorFusion</a> calibrates itself internally. Additionally, even with a properly implemented calibration procedure, output does improve over time. We are working to improve the robustness and consistency of results under these conditions.</p></li>
+<li><p>3DK relies on computer vision to function. Low light conditions, covering the camera, reflections, or looking at a blank wall can all cause poor results and/or errors. 3DK uses the back camera on the device. Make sure that the back camera is not blocked by your finger, a protective case, etc.</p></li>
+</ul>
+
+
+<h1>Example Code</h1>
+
+<p> Typical usage of this library would go something like the following. Note that there is a one-time calibration procedure that is
+ not shown here. The one-time calibration procedure is optional, but highly recommended. The system incrementally calibrates
+ itself after each run, but doing the calibration procedure before the first run will ensure that you get good results in the first
+ few runs, before the system can automatically calibrate itself. See the sample app to see how the one-time calibration procedure
+ is done.</p>
+
+<pre><code>// Get the sensor fusion object and set a delegate that 
+// implements the RCSensorFusionDelegate protocol.
+RCSensorFusion* sensorFusion = [RCSensorFusion sharedInstance];
+sensorFusion.delegate = self;
+
+// Set the license key. This must be done before starting sensor
+// fusion for the first time.
+[sensorFusion setLicenseKey:apiKey];
+
+// Pass in a CLLocation object that represents the device's 
+// current location.
+[sensorFusion setLocation:location];
+
+// Start sensor fusion,
+// which results in 6DOF device motion and point cloud output.
+// Pass in the AVCaptureDevice to be used for video capture.
+[sensorFusion startSensorFusionWithDevice:backCamera];
+
+// Begin passing in video frames and inertial data.
+[sensorFusion receiveVideoFrame:sampleBuffer];
+[sensorFusion receiveAccelerometerData:accelerometerData];
+[sensorFusion receiveGyroData:gyroData];
+
+// Implement the RCSensorFusionDelegate protocol methods to receive 
+// sensor fusion data.
+- (void) sensorFusionDidUpdateData:(RCSensorFusionData*)data {}
+- (void) sensorFusionDidChangeStatus:(RCSensorFusionStatus*)status {}
+
+// When you no longer want to receive sensor fusion data, stop it.
+[sensorFusion stopSensorFusion];
+</code></pre>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/RCCameraParameters.html">RCCameraParameters</a></li>
+							
+							<li><a href="Classes/RCFeaturePoint.html">RCFeaturePoint</a></li>
+							
+							<li><a href="Classes/RCLicenseError.html">RCLicenseError</a></li>
+							
+							<li><a href="Classes/RCPoint.html">RCPoint</a></li>
+							
+							<li><a href="Classes/RCRotation.html">RCRotation</a></li>
+							
+							<li><a href="Classes/RCScalar.html">RCScalar</a></li>
+							
+							<li><a href="Classes/RCSensorFusion.html">RCSensorFusion</a></li>
+							
+							<li><a href="Classes/RCSensorFusionData.html">RCSensorFusionData</a></li>
+							
+							<li><a href="Classes/RCSensorFusionError.html">RCSensorFusionError</a></li>
+							
+							<li><a href="Classes/RCSensorFusionStatus.html">RCSensorFusionStatus</a></li>
+							
+							<li><a href="Classes/RCTransformation.html">RCTransformation</a></li>
+							
+							<li><a href="Classes/RCTranslation.html">RCTranslation</a></li>
+							
+							<li><a href="Classes/RCVector.html">RCVector</a></li>
+							
+							<li><a href="Classes/RCVideoPreview.html">RCVideoPreview</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/RCSensorFusionDelegate.html">RCSensorFusionDelegate</a></li>
+							
+						</ul>
+						
+                        
+						<h2 class="index-title">Constant References</h2>
+						<ul>
+                        
+                        <li><a href="Constants/RCCameraManagerOperationType.html">RCCameraManagerOperationType</a></li>
+                        
+                        <li><a href="Constants/RCLicenseErrorCode.html">RCLicenseErrorCode</a></li>
+                        
+                        <li><a href="Constants/RCLicenseStatus.html">RCLicenseStatus</a></li>
+                        
+                        <li><a href="Constants/RCLicenseType.html">RCLicenseType</a></li>
+                        
+						</ul>
+						
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 RealityCap. All rights reserved. (Last updated: 2014-06-19)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

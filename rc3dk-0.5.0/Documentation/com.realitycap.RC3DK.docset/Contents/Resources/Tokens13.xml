@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCVector.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCVector</TokenIdentifier>
+			<Abstract type="html">Represents a 3 or 4 dimensional vector and its standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setVector:</TokenIdentifier>
+			<Abstract type="html">The underlying representation of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) vFloat vector</Declaration>
+			
+			
+			<Anchor>//api/name/vector</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/vector</TokenIdentifier>
+			<Abstract type="html">The underlying representation of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) vFloat vector</Declaration>
+			
+			
+			<Anchor>//api/name/vector</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/vector</TokenIdentifier>
+			<Abstract type="html">The underlying representation of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) vFloat vector</Declaration>
+			
+			
+			<Anchor>//api/name/vector</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setStandardDeviation:</TokenIdentifier>
+			<Abstract type="html">The underlying representation of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) vFloat standardDeviation</Declaration>
+			
+			
+			<Anchor>//api/name/standardDeviation</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/standardDeviation</TokenIdentifier>
+			<Abstract type="html">The underlying representation of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) vFloat standardDeviation</Declaration>
+			
+			
+			<Anchor>//api/name/standardDeviation</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/standardDeviation</TokenIdentifier>
+			<Abstract type="html">The underlying representation of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) vFloat standardDeviation</Declaration>
+			
+			
+			<Anchor>//api/name/standardDeviation</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setX:</TokenIdentifier>
+			<Abstract type="html">The first element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/x</TokenIdentifier>
+			<Abstract type="html">The first element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/x</TokenIdentifier>
+			<Abstract type="html">The first element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setY:</TokenIdentifier>
+			<Abstract type="html">The second element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/y</TokenIdentifier>
+			<Abstract type="html">The second element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/y</TokenIdentifier>
+			<Abstract type="html">The second element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setZ:</TokenIdentifier>
+			<Abstract type="html">The third element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float z</Declaration>
+			
+			
+			<Anchor>//api/name/z</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/z</TokenIdentifier>
+			<Abstract type="html">The third element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float z</Declaration>
+			
+			
+			<Anchor>//api/name/z</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/z</TokenIdentifier>
+			<Abstract type="html">The third element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float z</Declaration>
+			
+			
+			<Anchor>//api/name/z</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setV0:</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v0</Declaration>
+			
+			
+			<Anchor>//api/name/v0</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/v0</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v0</Declaration>
+			
+			
+			<Anchor>//api/name/v0</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/v0</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v0</Declaration>
+			
+			
+			<Anchor>//api/name/v0</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setV1:</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v1</Declaration>
+			
+			
+			<Anchor>//api/name/v1</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/v1</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v1</Declaration>
+			
+			
+			<Anchor>//api/name/v1</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/v1</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v1</Declaration>
+			
+			
+			<Anchor>//api/name/v1</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setV2:</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v2</Declaration>
+			
+			
+			<Anchor>//api/name/v2</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/v2</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v2</Declaration>
+			
+			
+			<Anchor>//api/name/v2</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/v2</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v2</Declaration>
+			
+			
+			<Anchor>//api/name/v2</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setV3:</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v3</Declaration>
+			
+			
+			<Anchor>//api/name/v3</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/v3</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v3</Declaration>
+			
+			
+			<Anchor>//api/name/v3</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/v3</TokenIdentifier>
+			<Abstract type="html">The fourth element of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float v3</Declaration>
+			
+			
+			<Anchor>//api/name/v3</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setStdx:</TokenIdentifier>
+			<Abstract type="html">The first element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float stdx</Declaration>
+			
+			
+			<Anchor>//api/name/stdx</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/stdx</TokenIdentifier>
+			<Abstract type="html">The first element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float stdx</Declaration>
+			
+			
+			<Anchor>//api/name/stdx</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/stdx</TokenIdentifier>
+			<Abstract type="html">The first element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float stdx</Declaration>
+			
+			
+			<Anchor>//api/name/stdx</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setStdy:</TokenIdentifier>
+			<Abstract type="html">The second element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float stdy</Declaration>
+			
+			
+			<Anchor>//api/name/stdy</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/stdy</TokenIdentifier>
+			<Abstract type="html">The second element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float stdy</Declaration>
+			
+			
+			<Anchor>//api/name/stdy</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/stdy</TokenIdentifier>
+			<Abstract type="html">The second element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float stdy</Declaration>
+			
+			
+			<Anchor>//api/name/stdy</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setStdz:</TokenIdentifier>
+			<Abstract type="html">The third element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float stdz</Declaration>
+			
+			
+			<Anchor>//api/name/stdz</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/stdz</TokenIdentifier>
+			<Abstract type="html">The third element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float stdz</Declaration>
+			
+			
+			<Anchor>//api/name/stdz</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/stdz</TokenIdentifier>
+			<Abstract type="html">The third element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float stdz</Declaration>
+			
+			
+			<Anchor>//api/name/stdz</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setStd0:</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std0</Declaration>
+			
+			
+			<Anchor>//api/name/std0</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/std0</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std0</Declaration>
+			
+			
+			<Anchor>//api/name/std0</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/std0</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std0</Declaration>
+			
+			
+			<Anchor>//api/name/std0</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setStd1:</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std1</Declaration>
+			
+			
+			<Anchor>//api/name/std1</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/std1</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std1</Declaration>
+			
+			
+			<Anchor>//api/name/std1</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/std1</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std1</Declaration>
+			
+			
+			<Anchor>//api/name/std1</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setStd2:</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std2</Declaration>
+			
+			
+			<Anchor>//api/name/std2</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/std2</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std2</Declaration>
+			
+			
+			<Anchor>//api/name/std2</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/std2</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std2</Declaration>
+			
+			
+			<Anchor>//api/name/std2</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/setStd3:</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std3</Declaration>
+			
+			
+			<Anchor>//api/name/std3</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/std3</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std3</Declaration>
+			
+			
+			<Anchor>//api/name/std3</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCVector/std3</TokenIdentifier>
+			<Abstract type="html">The fourth element of the standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float std3</Declaration>
+			
+			
+			<Anchor>//api/name/std3</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/initWithVector:withStandardDeviation:</TokenIdentifier>
+			<Abstract type="html">Instantiate an RCVector with the given vector and standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVector:(vFloat)vector withStandardDeviation:(vFloat)standardDeviation</Declaration>
+			
+			
+			<Anchor>//api/name/initWithVector:withStandardDeviation:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/initWithX:withStdX:withY:withStdY:withZ:withStdZ:</TokenIdentifier>
+			<Abstract type="html">Instantiate an RCVector with the given values for the first three elements of the vector and standard deviation.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithX:(float)x withStdX:(float)stdx withY:(float)y withStdY:(float)stdy withZ:(float)z withStdZ:(float)stdz</Declaration>
+			
+			
+			<Anchor>//api/name/initWithX:withStdX:withY:withStdY:withZ:withStdZ:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/initWithX:withY:withZ:</TokenIdentifier>
+			<Abstract type="html">Instantiate an RCVector with the given values for the first three elements of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithX:(float)x withY:(float)y withZ:(float)z</Declaration>
+			
+			
+			<Anchor>//api/name/initWithX:withY:withZ:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCVector/dictionaryRepresentation</TokenIdentifier>
+			<Abstract type="html">Return a dictionary representation of the vector.</Abstract>
+			<DeclaredIn>RCVector.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryRepresentation</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

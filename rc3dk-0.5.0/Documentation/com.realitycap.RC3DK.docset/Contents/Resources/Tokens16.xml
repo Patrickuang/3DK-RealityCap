@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/RCCameraManagerOperationType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/RCCameraManagerOperationType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RCCameraManager.m</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCCameraManagerOperationNone</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>RCCameraManagerOperationNone</Declaration>
+            
+            <DeclaredIn>RCCameraManager.m</DeclaredIn>
+            
+            <NodeRef refid="16"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCCameraManagerOperationFocusOnce</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>RCCameraManagerOperationFocusOnce</Declaration>
+            
+            <DeclaredIn>RCCameraManager.m</DeclaredIn>
+            
+            <NodeRef refid="16"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCCameraManagerOperationFocusLock</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>RCCameraManagerOperationFocusLock</Declaration>
+            
+            <DeclaredIn>RCCameraManager.m</DeclaredIn>
+            
+            <NodeRef refid="16"/>
+        </Token>
+        
+	</File>
+</Tokens>

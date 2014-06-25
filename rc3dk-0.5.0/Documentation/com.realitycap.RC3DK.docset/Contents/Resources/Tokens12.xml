@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCTranslation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCTranslation</TokenIdentifier>
+			<Abstract type="html">Represents a 3D translation in units of meters.</Abstract>
+			<DeclaredIn>RCTranslation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTranslation/transformPoint:</TokenIdentifier>
+			<Abstract type="html">Apply the translation to a point.</Abstract>
+			<DeclaredIn>RCTranslation.h</DeclaredIn>
+			
+			<Declaration>- (RCPoint *)transformPoint:(RCPoint *)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">An RCPoint object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The translated version of the point.</Abstract></ReturnValue>
+			<Anchor>//api/name/transformPoint:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTranslation/getDistance</TokenIdentifier>
+			<Abstract type="html">Compute the straight line distance spanned by the translation.</Abstract>
+			<DeclaredIn>RCTranslation.h</DeclaredIn>
+			
+			<Declaration>- (RCScalar *)getDistance</Declaration>
+			
+			<ReturnValue><Abstract type="html">An RCScalar object representing the distance in meters.</Abstract></ReturnValue>
+			<Anchor>//api/name/getDistance</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTranslation/getInverse</TokenIdentifier>
+			<Abstract type="html">Compute the inverse translation.</Abstract>
+			<DeclaredIn>RCTranslation.h</DeclaredIn>
+			
+			<Declaration>- (RCTranslation *)getInverse</Declaration>
+			
+			<ReturnValue><Abstract type="html">The inverse of the translation.</Abstract></ReturnValue>
+			<Anchor>//api/name/getInverse</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCTranslation/composeWithTranslation:</TokenIdentifier>
+			<Abstract type="html">Compute the composition of two translations.</Abstract>
+			<DeclaredIn>RCTranslation.h</DeclaredIn>
+			
+			<Declaration>- (RCTranslation *)composeWithTranslation:(RCTranslation *)other</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>other</Name>
+					<Abstract type="html">An RCTranslation object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An RCTranslation object representing the combined translation.</Abstract></ReturnValue>
+			<Anchor>//api/name/composeWithTranslation:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/RCTranslation/translationFromPoint:toPoint:</TokenIdentifier>
+			<Abstract type="html">Compute the translation between two points.</Abstract>
+			<DeclaredIn>RCTranslation.h</DeclaredIn>
+			
+			<Declaration>+ (RCTranslation *)translationFromPoint:(RCPoint *)fromPoint toPoint:(RCPoint *)toPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fromPoint</Name>
+					<Abstract type="html">The first RCPoint.</Abstract>
+				</Parameter><Parameter>
+					<Name>toPoint</Name>
+					<Abstract type="html">The second RCPoint.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new RCTranslation object that such that calling [RCTranslation transformPoint:fromPoint] would return a point with the same 3D position as toPoint.</Abstract></ReturnValue>
+			<Anchor>//api/name/translationFromPoint:toPoint:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

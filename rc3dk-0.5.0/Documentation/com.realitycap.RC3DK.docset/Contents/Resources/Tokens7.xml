@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCSensorFusion.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCSensorFusion</TokenIdentifier>
+			<Abstract type="html">This class is the business end of the library, and the only one that you really need to use in order to get data out of it.
+This class is a psuedo-singleton. You shouldn&apos;t instantiate this class directly, but rather get an instance of it via the
+sharedInstance class method.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Set this property to a delegate object that will receive the sensor fusion updates. The object must implement the RCSensorFusionDelegate protocol.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>@property (weak) id&lt;RCSensorFusionDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/delegate</TokenIdentifier>
+			<Abstract type="html">Set this property to a delegate object that will receive the sensor fusion updates. The object must implement the RCSensorFusionDelegate protocol.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>@property (weak) id&lt;RCSensorFusionDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCSensorFusion/delegate</TokenIdentifier>
+			<Abstract type="html">Set this property to a delegate object that will receive the sensor fusion updates. The object must implement the RCSensorFusionDelegate protocol.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>@property (weak) id&lt;RCSensorFusionDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/RCSensorFusion/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Use this method to get a shared instance of this class</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>+ (RCSensorFusion *)sharedInstance</Declaration>
+			
+			
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/setLicenseKey:</TokenIdentifier>
+			<Abstract type="html">Sets the 3DK license key. Call this once before starting sensor fusion. In most cases, this should be done when your app starts.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (void)setLicenseKey:(NSString *)licenseKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>licenseKey</Name>
+					<Abstract type="html">A 30 character string. Obtain a license key by contacting RealityCap.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLicenseKey:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/setLocation:</TokenIdentifier>
+			<Abstract type="html">Sets the current location of the device.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (void)setLocation:(CLLocation *)location</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>location</Name>
+					<Abstract type="html">The device&apos;s current location (including altitude) is used to account for differences in gravity across the earth. If location is unavailable, results may be less accurate. This should be called before starting sensor fusion or calibration.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLocation:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/hasCalibrationData</TokenIdentifier>
+			<Abstract type="html">Determine if valid saved calibration data exists from a previous run.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasCalibrationData</Declaration>
+			
+			<ReturnValue><Abstract type="html">If false, it is strongly recommended to perform a calibration procedure, including calling startStaticCalibration, and running sensor fusion in both portrait and landscape for at least 5 seconds each.</Abstract></ReturnValue>
+			<Anchor>//api/name/hasCalibrationData</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/startStaticCalibration</TokenIdentifier>
+			<Abstract type="html">Starts a special one-time static calibration mode.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (void)startStaticCalibration</Declaration>
+			
+			
+			<Anchor>//api/name/startStaticCalibration</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/startSensorFusionWithDevice:</TokenIdentifier>
+			<Abstract type="html">Prepares the object to receive video and inertial data, and starts sensor fusion updates.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (void)startSensorFusionWithDevice:(AVCaptureDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The camera device to be used for capture. This function will lock the focus on the camera device (if the device is capable of focusing) before starting video processing. No other modifications to the camera settings are made.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startSensorFusionWithDevice:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/startSensorFusionUnstableWithDevice:</TokenIdentifier>
+			<Abstract type="html">Prepares the object to receive video and inertial data, and starts sensor fusion updates.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (void)startSensorFusionUnstableWithDevice:(AVCaptureDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The camera device to be used for capture. This function will lock the focus on the camera device (if the device is capable of focusing) before starting video processing. No other modifications to the camera settings are made.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startSensorFusionUnstableWithDevice:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/stopSensorFusion</TokenIdentifier>
+			<Abstract type="html">Stops the processing of video and inertial data.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (void)stopSensorFusion</Declaration>
+			
+			
+			<Anchor>//api/name/stopSensorFusion</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/receiveVideoFrame:</TokenIdentifier>
+			<Abstract type="html">Once sensor fusion has started, video frames should be passed in as they are received from the camera.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (void)receiveVideoFrame:(CMSampleBufferRef)sampleBuffer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sampleBuffer</Name>
+					<Abstract type="html">A CMSampleBufferRef representing a single video frame. You can obtain the sample buffer via the AVCaptureSession class, or you can use RCAVSessionManager to manage the session and pass the frames in for you. In either case, you can retrieve a sample buffer after it has been processed from [RCSensorFusionData sampleBuffer]. If you manage the AVCaptureSession yourself, you must use the 640x480 preset ([AVCaptureSession setSessionPreset:AVCaptureSessionPreset640x480]) and set the output format to 420f ([AVCaptureVideoDataOutput setVideoSettings:[NSDictionary dictionaryWithObject:[NSNumber numberWithInt:&apos;420f&apos;] forKey:(id)kCVPixelBufferPixelFormatTypeKey]]).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveVideoFrame:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/receiveAccelerometerData:</TokenIdentifier>
+			<Abstract type="html">Once sensor fusion has started, acceleration data should be passed in as it&apos;s received from the accelerometer.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (void)receiveAccelerometerData:(CMAccelerometerData *)accelerometerData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>accelerometerData</Name>
+					<Abstract type="html">The CMAccelerometerData object. You can obtain the CMAccelerometerData object from CMMotionManager, or you can use RCMotionManager to handle the setup and passing of motion data for you. If you manage CMMotionManager yourself, you must set the accelerometer update interval to .01 ([CMMotionManager setAccelerometerUpdateInterval:.01]).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveAccelerometerData:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCSensorFusion/receiveGyroData:</TokenIdentifier>
+			<Abstract type="html">Once sensor fusion has started, angular velocity data should be passed in as it&apos;s received from the gyro.</Abstract>
+			<DeclaredIn>RCSensorFusion.h</DeclaredIn>
+			
+			<Declaration>- (void)receiveGyroData:(CMGyroData *)gyroData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>gyroData</Name>
+					<Abstract type="html">The CMGyroData object. You can obtain the CMGyroData object from CMMotionManager, or you can use RCMotionManager to handle the setup and passing of motion data for you. If you manage CMMotionManager yourself, you must set the gyro update interval to .01 ([CMMotionManager setAccelerometerUpdateInterval:.01]).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveGyroData:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

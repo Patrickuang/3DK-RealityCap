@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2B55788D-54E1-4E7B-8E82-4E687A9502D9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RC3DKSampleGL</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B45F1692-BBE5-49B9-BF71-372E61C3EF15</key>
+		<string>eagle@internal.realitycap.com:/home/team/rcmain</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>rc3dksamplegl/RC3DKSampleGL.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B45F1692-BBE5-49B9-BF71-372E61C3EF15</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>eagle@internal.realitycap.com:/home/team/rcmain</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B45F1692-BBE5-49B9-BF71-372E61C3EF15</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B45F1692-BBE5-49B9-BF71-372E61C3EF15</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rcmain</string>
+		</dict>
+	</array>
+</dict>
+</plist>

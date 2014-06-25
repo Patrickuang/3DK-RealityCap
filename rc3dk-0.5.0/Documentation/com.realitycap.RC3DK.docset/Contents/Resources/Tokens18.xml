@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/RCLicenseStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/RCLicenseStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RCSensorFusion.mm</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseStatusOK</TokenIdentifier>
+            <Abstract type="html">Authorized. You may proceed.</Abstract>
+            <Declaration>RCLicenseStatusOK</Declaration>
+            
+            <DeclaredIn>RCSensorFusion.mm</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseStatusOverLimit</TokenIdentifier>
+            <Abstract type="html">The maximum number of sensor fusion sessions has been reached for the current time period. Contact customer service if you wish to change your license type.</Abstract>
+            <Declaration>RCLicenseStatusOverLimit</Declaration>
+            
+            <DeclaredIn>RCSensorFusion.mm</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseStatusRateLimited</TokenIdentifier>
+            <Abstract type="html">API use has been rate limited. Try again after a short time.</Abstract>
+            <Declaration>RCLicenseStatusRateLimited</Declaration>
+            
+            <DeclaredIn>RCSensorFusion.mm</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseStatusSuspended</TokenIdentifier>
+            <Abstract type="html">Account suspended. Please contact customer service.</Abstract>
+            <Declaration>RCLicenseStatusSuspended</Declaration>
+            
+            <DeclaredIn>RCSensorFusion.mm</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RCLicenseStatusInvalid</TokenIdentifier>
+            <Abstract type="html">License key not found</Abstract>
+            <Declaration>RCLicenseStatusInvalid</Declaration>
+            
+            <DeclaredIn>RCSensorFusion.mm</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+	</File>
+</Tokens>

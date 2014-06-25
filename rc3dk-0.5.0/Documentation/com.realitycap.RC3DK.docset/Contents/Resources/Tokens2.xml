@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RCFeaturePoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RCFeaturePoint</TokenIdentifier>
+			<Abstract type="html">Represents a visual feature detected and tracked by computer vision.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/setId:</TokenIdentifier>
+			<Abstract type="html">A unique identifier for the feature.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint64_t id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/id</TokenIdentifier>
+			<Abstract type="html">A unique identifier for the feature.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint64_t id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCFeaturePoint/id</TokenIdentifier>
+			<Abstract type="html">A unique identifier for the feature.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint64_t id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/setX:</TokenIdentifier>
+			<Abstract type="html">The horizontal position, in units of pixels, of the feature in the most recently processed video frame.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/x</TokenIdentifier>
+			<Abstract type="html">The horizontal position, in units of pixels, of the feature in the most recently processed video frame.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCFeaturePoint/x</TokenIdentifier>
+			<Abstract type="html">The horizontal position, in units of pixels, of the feature in the most recently processed video frame.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/setY:</TokenIdentifier>
+			<Abstract type="html">The vertical position, in units of pixels, of the feature in the most recently processed video frame.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/y</TokenIdentifier>
+			<Abstract type="html">The vertical position, in units of pixels, of the feature in the most recently processed video frame.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCFeaturePoint/y</TokenIdentifier>
+			<Abstract type="html">The vertical position, in units of pixels, of the feature in the most recently processed video frame.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/setOriginalDepth:</TokenIdentifier>
+			<Abstract type="html">The current estimate of the depth of the feature, in units of meters, relative to the camera position at the time the feature was first detected.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCScalar *originalDepth</Declaration>
+			
+			
+			<Anchor>//api/name/originalDepth</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/originalDepth</TokenIdentifier>
+			<Abstract type="html">The current estimate of the depth of the feature, in units of meters, relative to the camera position at the time the feature was first detected.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCScalar *originalDepth</Declaration>
+			
+			
+			<Anchor>//api/name/originalDepth</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCFeaturePoint/originalDepth</TokenIdentifier>
+			<Abstract type="html">The current estimate of the depth of the feature, in units of meters, relative to the camera position at the time the feature was first detected.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCScalar *originalDepth</Declaration>
+			
+			
+			<Anchor>//api/name/originalDepth</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/setWorldPoint:</TokenIdentifier>
+			<Abstract type="html">An RCPoint object representing the current estimate of the 3D position of the feature relative to the global reference frame, as defined in [RCSensorFusionData transformation].</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCPoint *worldPoint</Declaration>
+			
+			
+			<Anchor>//api/name/worldPoint</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/worldPoint</TokenIdentifier>
+			<Abstract type="html">An RCPoint object representing the current estimate of the 3D position of the feature relative to the global reference frame, as defined in [RCSensorFusionData transformation].</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCPoint *worldPoint</Declaration>
+			
+			
+			<Anchor>//api/name/worldPoint</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCFeaturePoint/worldPoint</TokenIdentifier>
+			<Abstract type="html">An RCPoint object representing the current estimate of the 3D position of the feature relative to the global reference frame, as defined in [RCSensorFusionData transformation].</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) RCPoint *worldPoint</Declaration>
+			
+			
+			<Anchor>//api/name/worldPoint</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/setInitialized:</TokenIdentifier>
+			<Abstract type="html">Flag reflecting whether the feature is initialized.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) bool initialized</Declaration>
+			
+			
+			<Anchor>//api/name/initialized</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/initialized</TokenIdentifier>
+			<Abstract type="html">Flag reflecting whether the feature is initialized.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) bool initialized</Declaration>
+			
+			
+			<Anchor>//api/name/initialized</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RCFeaturePoint/initialized</TokenIdentifier>
+			<Abstract type="html">Flag reflecting whether the feature is initialized.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) bool initialized</Declaration>
+			
+			
+			<Anchor>//api/name/initialized</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/initWithId:withX:withY:withOriginalDepth:withWorldPoint:withInitialized:</TokenIdentifier>
+			<Abstract type="html">You will not typically need to instantiate this class yourself.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithId:(uint64_t)id withX:(float)x withY:(float)y withOriginalDepth:(RCScalar *)originalDepth withWorldPoint:(RCPoint *)worldPoint withInitialized:(bool)initialized</Declaration>
+			
+			
+			<Anchor>//api/name/initWithId:withX:withY:withOriginalDepth:withWorldPoint:withInitialized:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/pixelDistanceToPoint:</TokenIdentifier>
+			<Abstract type="html">The distance in pixels between two points.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>- (float)pixelDistanceToPoint:(CGPoint)cgPoint</Declaration>
+			
+			<ReturnValue><Abstract type="html">The distance in pixels between two points.</Abstract></ReturnValue>
+			<Anchor>//api/name/pixelDistanceToPoint:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RCFeaturePoint/makeCGPoint</TokenIdentifier>
+			<Abstract type="html">A convenient way to get a CGPoint.</Abstract>
+			<DeclaredIn>RCFeaturePoint.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)makeCGPoint</Declaration>
+			
+			<ReturnValue><Abstract type="html">A CGPoint that represents the coordinates contained in this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/makeCGPoint</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,492 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>RCLicenseErrorCode Constants Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">RC3DK </a></h1>
+				<a id="developerHome" href="../index.html">RealityCap</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">RCLicenseErrorCode Constants Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="RCLicenseErrorCode Constants Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">RCLicenseErrorCode Constants Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">RCLicenseError.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					
+                    
+                    
+                    <h3 class="subsubtitle method-title">RCLicenseErrorCode</h3>
+                    
+					
+					<div class="section section-overview">
+                        <p>Represents the type of license validation error.</p>
+					</div>
+					
+					
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(int, RCLicenseErrorCode ) {<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorUnknown</a> = 1,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorMissingKey</a> = 2,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorMalformedKey</a> = 3,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorInvalidKey</a> = 4,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorBundleIdMissing</a> = 5,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorVendorIdMissing</a> = 6,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorEmptyResponse</a> = 7,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorDeserialization</a> = 8,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorInvalidResponse</a> = 9,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorHttpFailure</a> = 10,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorHttpError</a> = 11,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorOverLimit</a> = 12,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorRateLimited</a> = 13,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">RCLicenseErrorSuspended</a> = 14,<br/>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="RCLicenseErrorUnknown"></a><code>RCLicenseErrorUnknown</code></dt>
+<dd>
+
+
+<p>An unknown error occured. Please contact support.</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorMissingKey"></a><code>RCLicenseErrorMissingKey</code></dt>
+<dd>
+
+
+<p>The license key provided was nil or zero length</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorMalformedKey"></a><code>RCLicenseErrorMalformedKey</code></dt>
+<dd>
+
+
+<p>The license key is the wrong length. Must be exactly 30 characters.</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorInvalidKey"></a><code>RCLicenseErrorInvalidKey</code></dt>
+<dd>
+
+
+<p>The license key is invalid. Please obtain a license key from RealityCap.</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorBundleIdMissing"></a><code>RCLicenseErrorBundleIdMissing</code></dt>
+<dd>
+
+
+<p>We weren&rsquo;t able to get the app&rsquo;s bundle ID from the system</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorVendorIdMissing"></a><code>RCLicenseErrorVendorIdMissing</code></dt>
+<dd>
+
+
+<p>We weren&rsquo;t able to get the identifier for vendor from the system</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorEmptyResponse"></a><code>RCLicenseErrorEmptyResponse</code></dt>
+<dd>
+
+
+<p>The license server returned an empty response</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorDeserialization"></a><code>RCLicenseErrorDeserialization</code></dt>
+<dd>
+
+
+<p>Failed to deserialize the response from the license server</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorInvalidResponse"></a><code>RCLicenseErrorInvalidResponse</code></dt>
+<dd>
+
+
+<p>The license server returned invalid data</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorHttpFailure"></a><code>RCLicenseErrorHttpFailure</code></dt>
+<dd>
+
+
+<p>Failed to execute the HTTP request. See underlying error for details.</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorHttpError"></a><code>RCLicenseErrorHttpError</code></dt>
+<dd>
+
+
+<p>We got an HTTP error status from the license server.</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorOverLimit"></a><code>RCLicenseErrorOverLimit</code></dt>
+<dd>
+
+
+<p>The maximum number of sensor fusion sessions has been reached for the current time period. Contact customer service if you wish to change your license type.</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorRateLimited"></a><code>RCLicenseErrorRateLimited</code></dt>
+<dd>
+
+
+<p>API use has been rate limited. Try again after a short time.</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="RCLicenseErrorSuspended"></a><code>RCLicenseErrorSuspended</code></dt>
+<dd>
+
+
+<p>Account suspended. Please contact support.</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">RCLicenseError.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    
+                    <div class="method-subsection declared-in-section">
+                        <h4 class="method-subtitle">Declared In</h4>
+                        <code class="declared-in-ref">RCLicenseError.h</code><br />
+                    </div>				
+                    
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 RealityCap. All rights reserved. (Last updated: 2014-06-19)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
