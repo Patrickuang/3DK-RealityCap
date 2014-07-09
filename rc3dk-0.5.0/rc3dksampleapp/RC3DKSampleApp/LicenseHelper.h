@@ -12,6 +12,9 @@
 #define SDK_LICENSE_KEY @"YOUR_LICENSE_KEY_HERE"
 
 
+
+
+
 @interface LicenseHelper : NSObject
 
 + (void)showLicenseValidationError:(NSError *)error;
